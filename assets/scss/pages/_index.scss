@@ -1,3 +1,34 @@
-.index-title {
-  font-size: 10px;
+.index-bg{
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/home_background.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height: 880px; /* You must set a specified height */
+}
+
+.circle_png{
+  width: 196px;
+  height: 196px;
+}
+
+.banner-side{
+  width: 416px;
+  height: 676px;
+  object-fit: cover;
+}
+
+.banner-side-diane{
+  max-width: 416px;
+  height: 676px;
+  object-fit: cover;
+  float: right;
+}
+
+.banner-center{
+  width: 416px;
+  height: 580px;
+}
+
+.brand-name{
+  letter-spacing: 3.5rem;
 }
