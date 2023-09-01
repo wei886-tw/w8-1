@@ -12,14 +12,14 @@
 }
 
 .banner-side{
-  width: 416px;
-  height: 676px;
+  max-width: 416px;
+  max-height: 676px;
   object-fit: cover;
 }
 
 .banner-side-diane{
   max-width: 416px;
-  height: 676px;
+  max-height: 676px;
   object-fit: cover;
   float: right;
 }
