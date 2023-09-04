@@ -13,4 +13,7 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 280px;
+    @include mobile{
+        background-image: url("../images/mobile/about_us_mobile.png");
+    }
 }
