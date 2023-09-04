@@ -1,0 +1,16 @@
+.about-us-page1{
+    height: 944px;
+}
+
+.about-us-page1-bg{
+    @include gradient-y(rgba(48, 8, 113, 1),rgba(0, 0, 0, 1) )
+}
+
+
+.about-us-bg-png{
+    background-image: url("../images/about_us.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 280px;
+}

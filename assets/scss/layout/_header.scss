@@ -8,9 +8,6 @@
   }
 }
 
-@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
-  background-image: linear-gradient(to bottom, $start-color, $end-color);
-}
 
 .navbar-bg {
   @include gradient-y(rgba(112, 0, 255, 1), rgba(17, 0, 45, 1));

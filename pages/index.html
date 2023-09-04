@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
-    <%- include('./layout/header'); -%>
-    <div class="container-fluid index-bg">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <!-- page-1 -->
+    <div class="container-fluid index-bg">
+      <!-- page 1 -->
       <div class="row mx-auto px-lg-72 d-flex text-white ">
-        <div class="col text-end pt-220">
-          <p class="text-white fw-bold font-noto-sans mb-64 border-1 border-bottom border-white">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+        <!-- banner left -->
+        <div class="col-12  col-md-3 text-end pt-220 position-relative d-flex flex-column justify-content-end ">
+          <p class="text-white fw-bold font-noto-sans mb-64 border-1 border-bottom border-white">最新消息！新版本 v15.4 釋出，搶先體驗！
+          </p>
+          <p class="banner-diane fs-16 fs-md24 fs-lg-32 fst-italic">Diane</p>
           <a href="#">
-            <img class="banner-side-diane" src="../assets/images/diane.png" alt="banner-diane">
+            dian
+            <img class="banner-side ms-md-auto position-relative" src="../assets/images/diane.png" alt="banner-diane">
           </a>
         </div>
-
-        <div class="col">
-            <img class="circle_png mx-auto my-56" src="../assets/images/circle.png" 
-            alt="circle">
-            <h2 class="fst-italic fs-32 lh-base text-center">ALPHABOX+ ALPHABOX+</h2>
-            <p class="text-center mb-24">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
-            <div class="d-flex">
-              <img class="banner-center me-32" src="../assets/images/felix.png" alt="felix.png">
-              <img class="banner-center" src="../assets/images/karina.png" alt="karina.png">
-            </div>
+        <!-- banner center -->
+        <div class="col-12  col-md-6">
+          <img class="circle_png mx-auto my-56" src="../assets/images/circle.png" alt="circle">
+          <h2 class="fst-italic fs-32 lh-base text-center">ALPHABOX+ ALPHABOX+</h2>
+          <p class="text-center mb-24">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+          <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-end position-relative">
+            <img class="banner-center" src="../assets/images/felix.png" alt="felix.png">
+            <img class="banner-center" src="../assets/images/karina.png" alt="karina.png">
+          </div>
         </div>
-
-        <div class="col">
-          <h2 class="fs-16 border-top border-1 border-white pt-60 mb-144 font-noto-sans ">ALPHABOX+ STUDIO</h2>
+        <!-- banner right -->
+        <div class="col-12 col-md-3 d-flex flex-column justify-content-end">
+          <h2 class="fs-16 border-top border-1 border-white  mb-144 font-noto-sans ">ALPHABOX+ STUDIO</h2>
           <p class="mb-56 text-secondary font-noto-sans">Copyright © 2023 Hexschool.</p>
           <a href="#">
-            <img class="banner-side" src="../assets/images/vito.png" 
-            alt="vito">
+            <img class="banner-side" src="../assets/images/vito.png" alt="vito">
           </a>
         </div>
-
+        <!-- border -->
+        <div class="row">
+          <div class="col-12 ">
+          </div>
+        </div>
       </div>
     </div>
-    <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+    <!-- page-2 -->
+    <div class="container-fluid page-2">
+      <div class="purple-bar row border border-1 w-100 border-primary-300 mt-144"></div>
+
+    </div>
+
+  <!-- footer -->
+  <%- include('./layout/footer'); -%>
+  <script type="module" src="../main.js"></script>
+</body>
+
 </html>

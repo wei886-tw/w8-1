@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
-  height: 880px; /* You must set a specified height */
+  height: 880px; 
 }
 
 .circle_png{
@@ -12,23 +12,48 @@
 }
 
 .banner-side{
-  max-width: 416px;
-  max-height: 676px;
+  max-width: 100%;
   object-fit: cover;
+
 }
 
-.banner-side-diane{
-  max-width: 416px;
-  max-height: 676px;
-  object-fit: cover;
-  float: right;
+@include pad{
+  .banner-side{
+    height: 50%;
+  }
 }
+
+
 
 .banner-center{
-  width: 416px;
-  height: 580px;
+  max-width: 48%;
+  object-fit: cover;
+
+}
+
+.banner-diane{
+  position: absolute;
+  // transform: translate(50%, -700%)
+  top: 0;
+
+
 }
 
 .brand-name{
   letter-spacing: 3.5rem;
+}
+
+
+// page-2
+.page-2{
+  background-image:  url("./assets/images/carousel.png");
+  height: 960px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.purple-bar{
+  height: 40px;
+  @include gradient-x(rgba(112, 0, 255, 1), rgba(17, 0, 45, 1));
 }
