@@ -4,6 +4,9 @@
   background-position: center;
   background-size: cover; 
   height: 880px; 
+  @include pc{
+    height: auto;
+  }
 }
 
 .circle_png{
@@ -17,21 +20,15 @@
 
 }
 
-@include pad{
-  .banner-side{
-    height: 50%;
-  }
-}
-
 
 
 .banner-center{
-  max-width: 48%;
+  max-width: 96%;
   object-fit: cover;
 
 }
 
-.banner-diane{
+.banner-name{
   position: absolute;
   // transform: translate(50%, -700%)
   top: 0;
@@ -43,17 +40,26 @@
   letter-spacing: 3.5rem;
 }
 
+.test{
+  letter-spacing: inherit;
+}
+
 
 // page-2
 .page-2{
-  background-image:  url("./assets/images/carousel.png");
-  height: 960px;
-  background-position: center;
+  background-image:  url("../images/carousel_background.png");
+  height: 100%;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .purple-bar{
   height: 40px;
   @include gradient-x(rgba(112, 0, 255, 1), rgba(17, 0, 45, 1));
 }
+
+
+
+

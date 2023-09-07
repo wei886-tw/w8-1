@@ -5,60 +5,118 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>index</title>
+  <title>首頁</title>
 </head>
 
 <body>
   <%- include('./layout/header'); -%>
     <!-- page-1 -->
     <div class="container-fluid index-bg">
-      <!-- page 1 -->
       <div class="row mx-auto px-lg-72 d-flex text-white ">
+        <div class="col-12 d-block d-lg-none ">
+          <p class="border-top border-1 border-white mt-28 mb-32">ALPHABOX + STUDIO</p>
+          <img class="circle_png mx-auto mb-32" src="../assets/images/circle.png" alt="circle">
+          <p class="text-center fs-20 test">ALPHABOX+</p>
+          <p class="text-center mb-32">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+        </div>
+
         <!-- banner left -->
-        <div class="col-12  col-md-3 text-end pt-220 position-relative d-flex flex-column justify-content-end ">
-          <p class="text-white fw-bold font-noto-sans mb-64 border-1 border-bottom border-white">最新消息！新版本 v15.4 釋出，搶先體驗！
+        <div class="col-12  col-lg-3 text-end pt-lg-220 position-relative d-flex flex-column justify-content-end ">
+          <p class="text-white fw-bold font-noto-sans mb-64 border-1 border-bottom border-white d-none d-lg-block">最新消息！新版本 v15.4 釋出，搶先體驗！
           </p>
-          <p class="banner-diane fs-16 fs-md24 fs-lg-32 fst-italic">Diane</p>
-          <a href="#">
-            dian
-            <img class="banner-side ms-md-auto position-relative" src="../assets/images/diane.png" alt="banner-diane">
-          </a>
-        </div>
-        <!-- banner center -->
-        <div class="col-12  col-md-6">
-          <img class="circle_png mx-auto my-56" src="../assets/images/circle.png" alt="circle">
-          <h2 class="fst-italic fs-32 lh-base text-center">ALPHABOX+ ALPHABOX+</h2>
-          <p class="text-center mb-24">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
-          <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-end position-relative">
-            <img class="banner-center" src="../assets/images/felix.png" alt="felix.png">
-            <img class="banner-center" src="../assets/images/karina.png" alt="karina.png">
+          <div class="position-relative">
+            <p class="banner-diane  fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Diane</p>
+            <a href="#">
+              <img class="banner-side ms-md-auto d-none d-lg-block" src="../assets/images/diane.png" alt="banner-diane">
+              <img class="d-lg-none mb-16 mb-md-32 w-100" src="/assets/images/diane_square1.png" alt="diane_square1" >
+            </a>
           </div>
         </div>
+
+        <!-- Felix -->
+        <div class="col-12  col-lg-6">
+          <img class="circle_png mx-auto my-56 d-none d-lg-block" src="../assets/images/circle.png" alt="circle">
+          <h2 class="fst-italic fs-32 lh-base text-center d-none d-lg-block">ALPHABOX+ ALPHABOX+</h2>
+          <p class="text-center mb-24 d-none d-lg-block">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
+            <div class="d-flex flex-column flex-lg-row justify-content-evenly align-items-end position-relative">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Felix</p>
+              <img class="banner-center d-none d-lg-block" src="../assets/images/felix.png" alt="felix.png">
+              <img class=" d-block d-lg-none w-100 mb-16 mb-md-32" src="../assets/images/felix_square1.png" alt="felix_square1.png">
+            </div>
+
+            <!-- Karina -->
+            <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-end position-relative">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">karina</p>
+              <img class="banner-center d-none d-lg-block" src="../assets/images/karina.png" alt="karina.png">
+              <img class="d-block d-lg-none w-100 mb-32 " src="../assets/images/karina_square1.png" alt="karina_square1.png">
+            </div>
+
+          </div>
+        </div>
+
         <!-- banner right -->
-        <div class="col-12 col-md-3 d-flex flex-column justify-content-end">
-          <h2 class="fs-16 border-top border-1 border-white  mb-144 font-noto-sans ">ALPHABOX+ STUDIO</h2>
-          <p class="mb-56 text-secondary font-noto-sans">Copyright © 2023 Hexschool.</p>
-          <a href="#">
-            <img class="banner-side" src="../assets/images/vito.png" alt="vito">
-          </a>
-        </div>
-        <!-- border -->
-        <div class="row">
-          <div class="col-12 ">
+        <div class="col-12 col-lg-3 d-flex flex-column justify-content-end">
+          <h2 class="fs-16 border-top border-1 border-white  mb-144 font-noto-sans d-none d-lg-block">ALPHABOX+ STUDIO</h2>
+          <p class="mb-56 text-secondary font-noto-sans d-none d-lg-block">Copyright © 2023 Hexschool.</p>
+          <div class="position-relative">
+            <a href="#">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Vito</p>
+              <img class="banner-side d-none d-lg-block" src="../assets/images/vito.png" alt="vito">  
+              <img class="d-block d-lg-none w-100 mb-16 mb-md-32" src="../assets/images/vito_square1.png" alt="vito_square1.png">
+            </a>
           </div>
         </div>
+
       </div>
     </div>
 
+
     <!-- page-2 -->
-    <div class="container-fluid page-2">
-      <div class="purple-bar row border border-1 w-100 border-primary-300 mt-144"></div>
+    <div class="container-fluid page-2 pt-40 ">
+      <div class="purple-bar mb-8"></div>
+      <p class="text-white fs-48">什麼是</p>
+      <p class="text-white fs-48 border-bottom border-1 ">ALPHABOX +</p>
+
+      <!-- carousel.png -->
+      <div class="d-flex align-items-center">
+        <svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_303_5647" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="48">
+          <rect width="180" height="48" fill="#28085C"/>
+          </mask>
+          <g mask="url(#mask0_303_5647)">
+          <path d="M26 38L4 24L26 10L19.15 22H176V26H19.15L26 38Z" fill="#828282"/>
+          </g>
+        </svg>
+        <div class="row">
+          <div class="col-12 d-flex position-relative mb-32 align-items-center pt-32">
+            <img class="mx-auto img-fluid " src="../assets/images/carousel.png" alt="carousel.png">
+            <p class="text-white position-absolute start-50 top-100">立體投影技術</p>
+          </div>
+        </div>
+        <svg  width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <mask id="mask0_250_5034" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="48">
+          <rect width="180" height="48" fill="#D9D9D9"/>
+          </mask>
+          <g mask="url(#mask0_250_5034)">
+          <path d="M154 38L160.85 26H4V22H160.85L154 10L176 24L154 38Z" fill="white"/>
+          </g>
+        </svg>
+      </div>
+
+      <!-- purple bar -->
+      <div class="purple-bar "></div>
 
     </div>
+
+  
+
+    
 
   <!-- footer -->
   <%- include('./layout/footer'); -%>
   <script type="module" src="../main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js%22%3E"></script>
 </body>
 
 </html>

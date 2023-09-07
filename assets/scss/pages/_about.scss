@@ -1,5 +1,5 @@
 .about-us-page1{
-    height: 944px;
+
 }
 
 .about-us-page1-bg{
@@ -16,4 +16,15 @@
     @include mobile{
         background-image: url("../images/mobile/about_us_mobile.png");
     }
+}
+
+.page-about-logo{
+    width: 80px;
+    height: 80px;
+}
+
+.page-about-three-png{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }

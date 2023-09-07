@@ -8,16 +8,16 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <!-- page-1 寫死高度記得改掉 -->
+    <!-- page-1 -->
     <div class="container-fluid about-us-page1 about-us-page1-bg ">
-      <div class="container-xxl text-white mb-48 ">
+      <div class="container-xxl text-white ">
         <div class="row ">
           <div class="col-12 col-md-4">
             <h2 class="fs-48 lh-base pt-160 mb-32 mb-md-0">關於我們</h2>
           </div>
         </div>
 
-        <div class="row d-flex  d-flex flex-column flex-lg-row justify-content-md-between gy-24 gy-md-0">
+        <div class="row d-flex flex-column flex-lg-row justify-content-md-between gy-24 gy-md-0">
           <div class="col-12 col-lg-6">
             <p class="mb-32 mb-lg-0">
               創立於2021年，我們的使命是將科技與人性化設計相結合，為您打造最佳的3D立體投影陪伴機器人。憑藉創新的技術、卓越的研發團隊以及對品質的追求，我們致力於為全球用戶提供最先進且易用的陪伴機器人。
@@ -31,19 +31,72 @@
           </div>
         </div>
       </div>
+    </div>
+    
 
     <!-- bg-about-us -->
     <div class="container-fluid about-us-bg-png">
     </div>
 
     <!-- bg-purple-gradient  -->
-    <div class="container-fluid">
+    <div class="container-fluid about-us-page1-bg">
+      <div class="container-md  pt-40 pb-160">
+        <div class="row">
+          <div class="col-12 col-lg-10 mx-auto d-flex flex-sm-column flex-lg-row justify-content-center align-items-center">
+            <svg class="mb-8 mr-lg-24 about-logo" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_326_6043" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="80" height="80">
+              <rect width="80" height="80" fill="#D9D9D9"/>
+              </mask>
+              <g mask="url(#mask0_326_6043)">
+              <path style="height: 80px; width: 80px"
+              d="M34.1665 70V50.1667L16.9998 60.0833L11.1665 50L28.3332 40L11.1665 30.0833L16.9998 20L34.1665 29.9167V10H45.8332V29.9167L62.9998 20L68.8332 30.0833L51.6665 40L68.8332 50L62.9998 60.0833L45.8332 50.1667V70H34.1665Z" fill="white"/>
+              </g>
+            </svg>
+            <p class="text-white ">我們相信科技的力量能夠改變人類生活。通過不斷創新與優化，我們期待為您打造一款具有高度智能、豐富功能且呈現真實感的3D立體投影陪伴機器人，讓科技成為您生活中真誠的夥伴。 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-white ">
+      <!-- three png -->
+      <div class="row g-lg-40 pt-40 ">
+        <div class=" col-12 col-lg-4">
+          <img class="page-about-three-png"  src="../assets/images/hand.png"
+          alt="hand.png">
+        </div>
+      
+        <div class="d-none d-lg-block col-lg-4">
+          <img class="page-about-three-png"  src="../assets/images/screen.png"
+          alt="screen.png">
+        </div>
+      
+        <div class="d-none d-lg-block col-lg-4">
+          <img class="page-about-three-png" src="../assets/images/box.png"
+          alt="box.png">
+        </div>
+      </div>
+
+      <!-- ALPHABOX+ -->
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center pt-80">
+          <h2 class="fs-96 mb-24 mb-lg-0">ALPHABOX+</h2>
+        </div>
+      </div>
+      <!-- text -->
+      <div class="row justify-content-between">
+        <div class="col-12 col-lg-6 mb-16 pt-lg-80">
+          <p>我們提供多款3D立體投影陪伴機器人，涵蓋知識型、娛樂型、生活型和情感型等不同類別，以滿足您的各種需求。每款產品都經過精心設計，具備高度智能化、多功能和人性化操作等特點，讓您在日常生活中獲得更便利的陪伴體驗。</p>
+        </div>
+        
+        <div class="col-12 col-lg-6 text-lg-end pt-lg-104">
+          <p>此外，我們還提供完善的售後服務，包括 產品保固 、 技術支援 及 線上客服 協助，確保您在購買與使用過程中得到全面支持</p>
+        </div>
+      </div>
 
     </div>
 
-    </div>
-
-    
+      
 
   <!-- footer -->
   <%- include('./layout/footer'); -%>
