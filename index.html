@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <script type="module" crossorigin src="/w8-1/assets/main-3812b94c.js"></script>
-    <link rel="stylesheet" href="/w8-1/assets/main-cf88715b.css">
-  </head>
-  <body>
-    <div class="container-fluid bg-primary-300 border-bottom border-1 border-white ">
-    <div class="container-xxl mx-auto py-lg-16">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>首頁</title>
+  <script type="module" crossorigin src="/w8-1/assets/main-b6e268fc.js"></script>
+  <link rel="stylesheet" href="/w8-1/assets/main-ac80eda6.css">
+</head>
+
+<body>
+  <div class="container-fluid bg-primary-300 border-bottom border-1 border-white ">
+    <div class="container-xxl mx-auto ">
         <div class="row d-flex justify-content-between align-items-center ">
             <!-- logo -->
             <div class="col-2 px-0">
-                <a href="#" class="navbar-brand fs-32 font-shrikhand font-italic text-white">ALPHABOX++</a>
+                <a href="index.html" class="navbar-brand fs-32 font-shrikhand font-italic text-white">ALPHABOX++</a>
             </div>
 
             <!-- navbar -->
@@ -25,7 +27,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">關於我們</a>
+                        <a class="nav-link" href="about.html">關於我們</a>
                     </li>
 
                     <li class="nav-item">
@@ -99,7 +101,7 @@
 </div>
 
 <!-- hamburger content -->
-<div class="container-fluid  bg-primary-300  d-lg-none collapse hamburger-content-bg" id="hamburger-content">
+<div class="container-fluid navbar-bg gradient-y d-lg-none collapse position-absolute hamburger-content" id="hamburger-content">
     <div class="container-xxl">
         <div class="row ">
             <div class="col-4 col-md-8 col-lg-12 mx-auto">
@@ -108,7 +110,7 @@
                         <a class="nav-link" href="#">產品</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">關於我們</a>
+                        <a class="nav-link" href="about.html">關於我們</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">最新消息</a>
@@ -149,17 +151,121 @@
         </div>
     </div>
 </div>
-    <div class="container-fluid bg-primary-300 px-lg-72" >
-      <div class="d-flex justify-content-lg-between text-white">
-        <p>最新消息！新版本 v15.4 釋出，搶先體驗！</p>
-        <p>ALPHABOX+ ALPHABOX+</p>
-        <p>ALPHABOX+ STUDIO</p>
+    <!-- page-1 -->
+    <div class="container-fluid index-bg">
+      <div class="row mx-auto px-lg-72 d-flex text-white ">
+        <div class="col-12 d-block d-lg-none ">
+          <p class="border-top border-1 border-white mt-28 mb-32">ALPHABOX + STUDIO</p>
+          <img class="circle_png mx-auto mb-32" src="/w8-1/assets/circle-10d6fa5f.png" alt="circle">
+          <p class="text-center fs-20 test">ALPHABOX+</p>
+          <p class="text-center mb-32">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+        </div>
+
+        <!-- banner left -->
+        <div class="col-12  col-lg-3 text-end pt-lg-220 position-relative d-flex flex-column justify-content-end ">
+          <p class="text-white fw-bold font-noto-sans mb-64 border-1 border-bottom border-white d-none d-lg-block">最新消息！新版本 v15.4 釋出，搶先體驗！
+          </p>
+          <div class="position-relative">
+            <p class="banner-diane  fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Diane</p>
+            <a href="#">
+              <img class="banner-side ms-md-auto d-none d-lg-block" src="/w8-1/assets/diane-2a2ea242.png" alt="banner-diane">
+              <img class="d-lg-none mb-16 mb-md-32 w-100" src="/w8-1/assets/diane_square1-9f0571f9.png" alt="diane_square1" >
+            </a>
+          </div>
+        </div>
+
+        <!-- Felix -->
+        <div class="col-12  col-lg-6">
+          <img class="circle_png mx-auto my-56 d-none d-lg-block" src="/w8-1/assets/circle-10d6fa5f.png" alt="circle">
+          <h2 class="fst-italic fs-32 lh-base text-center d-none d-lg-block">ALPHABOX+ ALPHABOX+</h2>
+          <p class="text-center mb-24 d-none d-lg-block">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+          <div class="d-flex flex-column flex-lg-row justify-content-between">
+            <div class="d-flex flex-column flex-lg-row justify-content-evenly align-items-end position-relative">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Felix</p>
+              <img class="banner-center d-none d-lg-block" src="/w8-1/assets/felix-edc6ba69.png" alt="felix.png">
+              <img class=" d-block d-lg-none w-100 mb-16 mb-md-32" src="/w8-1/assets/felix_square1-48e53108.png" alt="felix_square1.png">
+            </div>
+
+            <!-- Karina -->
+            <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-end position-relative">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">karina</p>
+              <img class="banner-center d-none d-lg-block" src="/w8-1/assets/karina-925992ef.png" alt="karina.png">
+              <img class="d-block d-lg-none w-100 mb-32 " src="/w8-1/assets/karina_square1-3af8d52b.png" alt="karina_square1.png">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- banner right -->
+        <div class="col-12 col-lg-3 d-flex flex-column justify-content-end">
+          <h2 class="fs-16 border-top border-1 border-white  mb-144 font-noto-sans d-none d-lg-block">ALPHABOX+ STUDIO</h2>
+          <p class="mb-56 text-secondary font-noto-sans d-none d-lg-block">Copyright © 2023 Hexschool.</p>
+          <div class="position-relative">
+            <a href="#">
+              <p class="fs-32 fst-italic position-absolute start-50 top-0 translate-middle-x">Vito</p>
+              <img class="banner-side d-none d-lg-block" src="/w8-1/assets/vito-f02791d7.png" alt="vito">  
+              <img class="d-block d-lg-none w-100 mb-16 mb-md-32" src="/w8-1/assets/vito_square1-4497c642.png" alt="vito_square1.png">
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
-    <div class="container-fluid bg-white">
-    <div class="container-xxl px-0 py-40 py-lg-48 px-32 px-lg-0 ">
-        <div class="row mx-auto d-flex flex-column flex-lg-row justify-content-start justify-content-lg-between align-items-lg-center gap-8">
-            <div class="col-3 px-0 ">
+
+
+    <!-- page-2 -->
+    <div class="container-fluid page-2 pt-40 ">
+      <div class="purple-bar mb-8"></div>
+      <p class="text-white fs-48">什麼是</p>
+      <p class="text-white fs-48 border-bottom border-1 ">ALPHABOX +</p>
+
+      <!-- carousel.png -->
+      <div class="d-flex ">
+        <div class="row align-items-center">
+          <div class="col-2">
+            <svg class="img-fluid" width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0_303_5647" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="48">
+            <rect width="180" height="48" fill="#28085C"/>
+            </mask>
+            <g mask="url(#mask0_303_5647)">
+            <path d="M26 38L4 24L26 10L19.15 22H176V26H19.15L26 38Z" fill="#828282"/>
+            </g>
+          </svg>
+        </div>
+
+          <div class="col-8 d-flex position-relative py-32">
+            <img class="mx-auto img-fluid" src="/w8-1/assets/carousel-eede7f16.png" alt="carousel.png">
+            <p class="text-white position-absolute start-50 top-100">立體投影技術</p>
+          </div>
+
+          <div class="col-2">
+            <svg  class="img-fluid" width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <mask id="mask0_250_5034" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="48">
+              <rect width="180" height="48" fill="#D9D9D9"/>
+              </mask>
+              <g mask="url(#mask0_250_5034)">
+              <path d="M154 38L160.85 26H4V22H160.85L154 10L176 24L154 38Z" fill="white"/>
+              </g>
+            </svg>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- purple bar -->
+      <div class="purple-bar "></div>
+
+    </div>
+
+  
+
+    
+
+  <!-- footer -->
+  <div class="container-fluid bg-white">
+    <div class="container-xxl px-0">
+        <div class="row mx-auto d-flex flex-column flex-lg-row align-items-start justify-content-lg-between align-items-lg-center gap-8 gy-lg-0 py-40 py-lg-52">
+            <div class="col-3 px-0">
                 <h2 class="fs-32 fst-italic lh-base">ALPHABOX+</h2>
                 <p class="font-noto-sans fw-bold d-none d-lg-block">Copyright © 2023 Hexschool.</p>
             </div>
@@ -171,18 +277,19 @@
                     
             </div>
 
-            <div class="col col-lg-4">
-                <ul class="d-flex flex-column flex-lg-row justify-content-between ps-0 mb-0 gap-sm-8">
-                    <li><a class="text-dark fw-bold" href="#">關於我們</a></li>
+            <div class="col-12 col-lg-4">
+                <ul class="d-flex flex-column flex-lg-row justify-content-between ps-0 mb-0">
+                    <li><a class="text-dark fw-bold" href="about.html">關於我們</a></li>
                     <li><a class="text-dark fw-bold" href="#">產品資訊</a></li>
                     <li><a class="text-dark fw-bold" href="#">常見問題</a></li>
                     <li><a class="text-dark fw-bold" href="#">隱私政策</a></li>
-                    <li class="d-block d-lg-none"><p>Copyright © 2023 Hexschool.</p></li>
+                    <li><a class="text-dark fw-bold font-noto-sans d-block d-lg-none" href="#">Copyright © 2023 Hexschool</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</div>
-    
-  </body>
+</div>  
+
+</body>
+
 </html>
